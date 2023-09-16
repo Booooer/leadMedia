@@ -53,6 +53,9 @@ class Service
 
     public function test()
     {
+        if(1 === 0)
+        {
 
+        }
     }
 }
