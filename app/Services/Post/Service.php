@@ -50,4 +50,9 @@ class Service
     public function deleteImage($post){
         Storage::disk('public')->delete('img/'.$post->img);
     }
+
+    public function test()
+    {
+
+    }
 }
