@@ -43,4 +43,8 @@ class StorePostRequest extends FormRequest
     {
         return $validator->errors()->all();
     }
+
+    public function test(){
+
+    }
 }
